@@ -2219,14 +2219,18 @@ source = { virtual = "." }
 dependencies = [
     { name = "discord-py" },
     { name = "portia-sdk-python", extra = ["all"] },
+    { name = "pydantic" },
     { name = "python-dotenv" },
+    { name = "requests" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "discord-py", specifier = ">=2.6.0" },
     { name = "portia-sdk-python", extras = ["all"], specifier = ">=0.7.2" },
+    { name = "pydantic", specifier = ">=2.5.0" },
     { name = "python-dotenv", specifier = ">=1.1.1" },
+    { name = "requests", specifier = ">=2.31.0" },
 ]
 
 [[package]]
