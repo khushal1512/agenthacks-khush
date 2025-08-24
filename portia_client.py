@@ -14,7 +14,7 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 task0 = "Star the github repo for portiaAI/portia-sdk-python"
 
 my_config = Config.from_default(storage_class=StorageClass.CLOUD, 
-                                default_model="google/gemini-2.0-flash",
+                                default_model="google/gemini-2.5-pro",
                                 google_api_key=GOOGLE_API_KEY
                             )
 
